@@ -1,0 +1,19 @@
+.container{
+    justify-content: space-around;
+    padding: 5rem 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: .5rem;
+    grid-row-gap: 3rem;
+    justify-items: center;
+}
+
+.selector{
+    background-color: rgba(75, 71, 71,004);
+    color: rgb(11, 173, 11);
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+}

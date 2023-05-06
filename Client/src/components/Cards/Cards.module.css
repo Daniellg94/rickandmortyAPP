@@ -1,0 +1,24 @@
+.container{
+justify-content: space-around;
+border-radius: 1rem;
+gap: 1rem;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+
+grid-column-gap: .5rem;
+grid-row-gap: 3rem;
+justify-items: center;
+animation: enterFromRight 0.5s forwards;
+
+}
+
+@keyframes enterFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
