@@ -29,8 +29,7 @@ const reducer =(state =initialState,{type,payload})=>{
       return {
         ...state,
         myFavorites: filteredCharactersFav
-      }
-        
+      } 
       case ORDER:
         const sortCharactersFav = [...state.myFavorites]
           .sort((a, b) => {
